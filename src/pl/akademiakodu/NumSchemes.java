@@ -50,7 +50,7 @@ class NumSchemes extends Canvas {
     }
 
 
-    //rozwiazanie analityczne (Solution) !!
+    //rozwiazanie analityczne (named Solution) !!
     double analyticFunction (double x) {
         double y = 0.0;
 
@@ -83,7 +83,7 @@ class NumSchemes extends Canvas {
         g.drawString("y", Ox+5, 10);
 
 
-        //rozwiązanie analityczne:
+        //rozwiązanie analityczne (Solution):
         if ( ifAnalytics == true ) {
             for (int i=0; i<S; i++){
                 double x = (i-Ox)* whatJx;
